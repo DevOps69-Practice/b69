@@ -6,7 +6,7 @@ SG_NAME="allow-all"
 #ENV="dev"
 #############################
 
-env=dev
+#env=dev
 
 create_ec2() {
   PRIVATE_IP=$(aws ec2 run-instances \
